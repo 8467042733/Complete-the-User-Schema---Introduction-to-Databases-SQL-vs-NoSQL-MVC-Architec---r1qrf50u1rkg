@@ -15,6 +15,7 @@ const userSchema = mongoose.Schema({
         required: true,
     },
     role: {
+        type: string,
         enum: ['buyer','seller']
     }
 });
